@@ -8,7 +8,7 @@ typedef struct Node
     struct Node *right;
     int height;
 } Node;
-
+//kerrthi paththiya karran
 Node *createNode(int data)
 {
     Node *newNode = (Node *)malloc(sizeof(Node));
